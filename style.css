@@ -1,0 +1,95 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: #f5f5f5;
+	background-image: url("https://static.escolakids.uol.com.br/2021/11/1-frutas.jpg");
+	background-size:100%;
+	
+	}
+
+header {
+	background: green;
+	color: white;
+	padding: 15px;
+	text-align: center;
+	}
+
+nav {
+	background: #228B22;
+	padding: 10px;
+	text-align: center;
+	}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	margin: 0 15px;
+	font-weight: bolder;
+	}
+
+nav a:hover {
+	text-decoration: underline;
+	}
+
+.container {
+	padding: 20px;
+	margin: 0 auto;
+	width: 1000px;
+	display: flex;
+	justify-content:center;
+	}
+
+.card {
+	background: DarkSeaGreen;
+	border: 4mm ridge rgb(215 290 10 / 0.6);
+	border-radius: 50% 20% / 10% 40%;
+	padding: 15px;
+	margin: 1px;
+	width: 500px;
+	text-align: center;
+
+	}
+
+.card img {
+	width: 100%;
+	height: 120px;
+	object-fit: cover;
+	border-radius: 50% 20% / 10% 40%;
+	}
+
+button {
+	background: green;
+	color: white;
+	border: none;
+	padding: 18px 12px;
+	margin-top: 10px;
+	cursor: pointer;
+	border-radius: 15px;
+	}
+
+button:hover {
+	background: darkgreen;
+	}
+
+
+	}
+h2{
+		text-align:center;
+	}
+	.card {
+  display: flex;
+  gap: 40px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.card {
+  border: 4mm ridge rgb(215 290 10 / 0.6);
+  border-radius: 50% 20% / 10% 40%;
+  padding: 30px;
+  box-shadow: 10px 10px black;
+  background: DarkSeaGreen;
+  flex-grow: 8; /* Proporção de crescimento do card em relação ao espaço vazio */
+  flex-shrink: 1;
+  flex-basis: 200px;
+}
