@@ -93,3 +93,11 @@ h2{
   flex-shrink: 1;
   flex-basis: 200px;
 }
+
+
+main {
+	width: 80%;
+	margin: 0 auto;
+}
+
+
