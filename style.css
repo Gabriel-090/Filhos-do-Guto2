@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'minha-fonte';
-  src: url('Fonte/JMH\ Typewriter.otf') format('otf');
+  font-family: 'MinhaFonte';
+  src: url('fonts/MinhaFonte.woff2') format('woff2');
 }
 
 :root {
@@ -25,7 +25,7 @@ h1, .title-center {
 }
 
 body {
-  font-family: 'minha-Fonte',;
+  font-family: 'MinhaFonte', Arial, sans-serif;
   line-height: 2.5em;
   color: var(--texto);
   background-image: url(https://imgs.search.brave.com/piQSvCcbqJsz8vXmdrGlQC1nCTJrZ6M5K7QJ6iyZ2NA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/Y3JlYXRlLnZpc3Rh/LmNvbS9hcGkvbWVk/aWEvc21hbGwvMjE1/OTkzNTcyL3N0b2Nr/LXBob3RvLWFic3Ry/YWN0LXBhc3RlbC1z/b2Z0LWNvbG9yZnVs/LXNtb290aC1ibHVy/cmVkLXRleHR1cmVk/LWJhY2tncm91bmQt/Zm9jdXMtdG9uZWQ);
@@ -80,7 +80,12 @@ a {
   background-color: var(--cor-secundaria);
 }
 
-.intro img { max-width: 400px; border-radius: 10px; }
+.intro img {
+  width: 750px;
+  height: 250px;
+  border-radius:20px;
+  border: solid;
+}
 
 /* cards frutas */
 .frutas {
@@ -95,7 +100,7 @@ a {
 }
 
 .card {
-  border: 1px solid #000;
+  border: 5px solid #000;
   border-radius: 20px;
   padding: 20px;
   box-shadow: 10px 10px black;
@@ -182,13 +187,30 @@ h2{
   text-align: center;
 }
 p{
-  font-weight: bold;
+  font-weight: weighter;
   font-size: 1.2em;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: justify;
   
   }
   video {
     display: block;
     margin: 20px auto;
     border-radius: 10px;
+  }
+  h3{
+    color: black;
+    text-align: center;
+  }
+  maps{
+    display: block;
+    margin: 200px auto;
+  }
+  iframe {
+  border: 1px solid black;
+  width: 100%;
+  }
+  h1{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
   }
