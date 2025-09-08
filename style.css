@@ -5,7 +5,7 @@
 
 :root {
   --cor-principal: #2e7d32;
-  --cor-secundaria: #a5d6a7;
+  --cor-secundaria: #2d8630bb;
   --texto: #333;
 }
 
@@ -28,13 +28,15 @@ body {
   font-family: 'MinhaFonte', Arial, sans-serif;
   line-height: 2.5em;
   color: var(--texto);
-  background: #f9f9f9;
+  background-image: url(https://imgs.search.brave.com/piQSvCcbqJsz8vXmdrGlQC1nCTJrZ6M5K7QJ6iyZ2NA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/Y3JlYXRlLnZpc3Rh/LmNvbS9hcGkvbWVk/aWEvc21hbGwvMjE1/OTkzNTcyL3N0b2Nr/LXBob3RvLWFic3Ry/YWN0LXBhc3RlbC1z/b2Z0LWNvbG9yZnVs/LXNtb290aC1ibHVy/cmVkLXRleHR1cmVk/LWJhY2tncm91bmQt/Zm9jdXMtdG9uZWQ);
+  background-size: cover;
 
 }
 
 main {
   width: 80%;
   margin: 0 auto 20px auto;
+  
 }
 
 /* Menu */
@@ -75,6 +77,7 @@ a {
   justify-content: center;
   padding: 2rem;
   gap: 2rem;
+  background-color: var(--cor-secundaria);
 }
 
 .intro img { max-width: 400px; border-radius: 10px; }
@@ -85,6 +88,10 @@ a {
   gap: 60px;
   width: 100%;
   flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+
+  
 }
 
 .card {
@@ -96,7 +103,9 @@ a {
   flex-grow: 0;
   flex-shrink: 0;
   flex-basis: 25%;
-
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  
+  
 }
 
 .card img { 
@@ -134,7 +143,7 @@ a {
 
 /* Footer */
 footer {
-  background: var(--cor-secundaria);
+  background: var(--cor-principal);
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
@@ -159,6 +168,27 @@ footer .social img { width: 24px; margin: 0 0.5rem; }
 @media (min-width: 600px) and (max-width: 1200px) {
   .card {
     flex-basis: 45%;
+
+
   }
     
 }
+.card:hover {
+  background-color: rgb(67, 155, 59);
+  transform: scale(1.05);
+}
+h2{
+  color : white;
+  text-align: center;
+}
+p{
+  font-weight: bold;
+  font-size: 1.2em;
+  color: rgb(0, 0, 0);
+  
+  }
+  video {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+  }
