@@ -81,7 +81,7 @@ a {
 }
 
 .intro img {
-  width: 750px;
+  width: 100%;
   height: 250px;
   border-radius:20px;
   border: solid;
