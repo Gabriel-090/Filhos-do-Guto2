@@ -100,10 +100,9 @@ a {
 }
 
 .card {
-  border: 5px solid #000;
+  border: 5px solid #005307;
   border-radius: 50% 10% / 10% 40%;
   padding: 20px;
-  box-shadow: 10px 10px black;
   background: #fff;
   flex-grow: 0;
   flex-shrink: 0;
