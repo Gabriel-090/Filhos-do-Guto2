@@ -79,7 +79,7 @@ a {
 
 .intro img { max-width: 400px; border-radius: 10px; }
 
-/* Grid de frutas */
+/* cards frutas */
 .frutas {
   display: flex;
   gap: 60px;
@@ -96,7 +96,7 @@ a {
   flex-grow: 0;
   flex-shrink: 0;
   flex-basis: 25%;
-  
+
 }
 
 .card img { 
