@@ -100,22 +100,16 @@ a {
 }
 
 .card {
-<<<<<<< Updated upstream
   border: 5px solid #005307;
   border-radius: 50% 10% / 10% 40%;
   padding: 20px;
-=======
-<<<<<<< HEAD
   border: 5px solid var(--cor-principal);
   border-radius: 50% 10% / 10% 40%;
   padding: 20px;
   box-shadow: 10px 10px var(--cor-principal);
-=======
   border: 5px solid #005307;
   border-radius: 50% 10% / 10% 40%;
   padding: 20px;
->>>>>>> c347509f3fb9694b8a323079fae03c2bb1fa3582
->>>>>>> Stashed changes
   background: #fff;
   flex-grow: 0;
   flex-shrink: 0;
