@@ -153,6 +153,9 @@ a {
 
 .form-contato button:hover { background: #1b5e20; }
 
+
+
+
 /* Footer */
 footer {
   background: var(--cor-principal);
@@ -195,7 +198,6 @@ h2{
   text-shadow: 2px 2px 4px #000000;
 }
 p{
-  font-weight: weighter;
   font-size: 1.2em;
   color: rgb(255, 255, 255);
   text-align: justify;
@@ -205,6 +207,7 @@ p{
     display: block;
     margin: 20px auto;
     border-radius: 10px;
+    width:100%;
   }
   h3{
     color: black;
