@@ -126,8 +126,9 @@ a {
 }
 
 /* Formulário */
+
 .form-contato {
-  display: flex;
+  display:grid;
   flex-direction: column;
   gap: 1rem;
   padding: 2rem;
