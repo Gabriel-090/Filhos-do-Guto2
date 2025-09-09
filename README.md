@@ -86,13 +86,3 @@ Fonte personalizada (CreatoDisplay-Regular.otf) – Identidade visual única
 📍 Autores
 Desenvolvido como projeto de estudo por Gabriel Calixto, Enzo Alves, João Pedro Calixto e Yago Alves.✨
 
-
-
-
-
-
-
-
-
-Perguntar ao ChatGPT
-
