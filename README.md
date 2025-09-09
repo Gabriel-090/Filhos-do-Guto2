@@ -63,7 +63,7 @@ Faça o download ou clone este repositório:
 
 bash
 Copiar código
-git clone https://github.com/seu-usuario/sacolao-embirussu.git
+git clone https://github.com/Gabriel-090/Filhos-do-Guto2
 Abra qualquer um dos arquivos .html (como index.html ou frutas.html) diretamente no navegador.
 
 ⚠️ Como o site é estático, não é necessário configurar um servidor web para rodá-lo.
@@ -78,7 +78,7 @@ Flexbox – Organização da galeria de produtos em cards
 Fonte personalizada (CreatoDisplay-Regular.otf) – Identidade visual única
 
 📌 Melhorias Futuras
- Adicionar integração com WhatsApp para pedidos online.
+ Adicionar integração com WhatsApp (11 99740-4829/ 11 94225-1955) para pedidos online.
 
  Criar página dedicada para promoções semanais.
 
