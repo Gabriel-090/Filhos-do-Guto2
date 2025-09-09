@@ -37,6 +37,8 @@ As páginas principais incluem:
 ├── index.html
 ├── sobre.html
 ├── style.css
+├── fontes/
+    ├── CreatoDisplay-Regular.otf
 └── imagens/
     ├── abacate.jpg
     ├── abacaxi.jpg
@@ -55,6 +57,7 @@ As páginas principais incluem:
     ├── tomate.jpg
     ├── uva.jpg
     └── whatsapp.svg
+
 ▶️ Como Visualizar o Projeto
 Faça o download ou clone este repositório:
 
